@@ -1,0 +1,5 @@
+2024-08-05 13:22:49.850 +03:00 [INF] User profile is available. Using '/Users/muhammed/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-05 13:22:49.913 +03:00 [INF] Now listening on: http://localhost:5112
+2024-08-05 13:22:49.914 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 13:22:49.914 +03:00 [INF] Hosting environment: Development
+2024-08-05 13:22:49.914 +03:00 [INF] Content root path: /Users/muhammed/Desktop/c# myProject/WebApi/WebApi

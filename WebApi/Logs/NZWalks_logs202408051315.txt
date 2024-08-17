@@ -1,0 +1,12 @@
+2024-08-05 13:15:09.028 +03:00 [INF] User profile is available. Using '/Users/muhammed/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-05 13:15:09.083 +03:00 [INF] Now listening on: http://localhost:5112
+2024-08-05 13:15:09.084 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 13:15:09.084 +03:00 [INF] Hosting environment: Development
+2024-08-05 13:15:09.084 +03:00 [INF] Content root path: /Users/muhammed/Desktop/c# myProject/WebApi/WebApi
+2024-08-05 13:15:09.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/ - null null
+2024-08-05 13:15:09.403 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-05 13:15:09.457 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/ - 404 0 null 81.309ms
+2024-08-05 13:15:09.466 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5112/, Response status code: 404
+2024-08-05 13:15:09.630 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/favicon.ico - null null
+2024-08-05 13:15:09.633 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/favicon.ico - 404 0 null 2.8337ms
+2024-08-05 13:15:09.633 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5112/favicon.ico, Response status code: 404

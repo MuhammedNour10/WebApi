@@ -1,0 +1,4 @@
+2024-08-05 13:25:44.004 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/ - null null
+2024-08-05 13:25:44.042 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-05 13:25:44.062 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/ - 404 0 null 58.7957ms
+2024-08-05 13:25:44.065 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5112/, Response status code: 404

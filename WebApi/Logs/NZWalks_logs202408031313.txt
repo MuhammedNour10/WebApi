@@ -1,0 +1,10 @@
+2024-08-03 13:13:50.599 +03:00 [INF] User profile is available. Using '/Users/muhammed/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-03 13:13:50.891 +03:00 [INF] Now listening on: https://localhost:7249
+2024-08-03 13:13:50.892 +03:00 [INF] Now listening on: http://localhost:5112
+2024-08-03 13:13:50.893 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-03 13:13:50.894 +03:00 [INF] Hosting environment: Development
+2024-08-03 13:13:50.894 +03:00 [INF] Content root path: /Users/muhammed/Desktop/c# myProject/WebApi/WebApi
+2024-08-03 13:13:51.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2024-08-03 13:13:51.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 161.5077ms
+2024-08-03 13:13:51.566 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2024-08-03 13:13:51.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.4678ms

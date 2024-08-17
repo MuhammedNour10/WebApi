@@ -1,0 +1,27 @@
+2024-08-05 13:51:47.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2024-08-05 13:51:47.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 70.8375ms
+2024-08-05 13:51:47.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2024-08-05 13:51:47.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.9155ms
+2024-08-05 13:51:51.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/Regions - null null
+2024-08-05 13:51:51.347 +03:00 [INF] Executing endpoint 'WebApi.Controllers.RegionsController.GetAllRegion (WebApi)'
+2024-08-05 13:51:51.348 +03:00 [INF] Route matched with {action = "GetAllRegion", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRegion() on controller WebApi.Controllers.RegionsController (WebApi).
+2024-08-05 13:51:51.383 +03:00 [INF] Executed action WebApi.Controllers.RegionsController.GetAllRegion (WebApi) in 35.0431ms
+2024-08-05 13:51:51.383 +03:00 [INF] Executed endpoint 'WebApi.Controllers.RegionsController.GetAllRegion (WebApi)'
+2024-08-05 13:51:51.395 +03:00 [ERR] c3d58885-d990-49a2-9dd3-c103d531cd60 : custom
+System.Exception: custom
+   at WebApi.Controllers.RegionsController.GetAllRegion() in /Users/muhammed/Desktop/c# myProject/WebApi/WebApi/Controllers/RegionsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at WebApi.MiddleWares.ExeptionHandleMiddleWare.InvokeAsync(HttpContext httpContext) in /Users/muhammed/Desktop/c# myProject/WebApi/WebApi/MiddleWares/ExeptionHandleMiddleWare.cs:line 25
+2024-08-05 13:51:51.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/Regions - 500 null application/json; charset=utf-8 55.0395ms

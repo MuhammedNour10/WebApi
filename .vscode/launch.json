@@ -1,0 +1,56 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
+            "name": "Launch Web API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Run Web API",
+            "program": "${workspaceFolder}/WebApi/bin/Debug/net8.0/WebApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/WebApi",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/WebApi/Views"
+            }
+        },
+        {
+            "name": "Launch Web MVC",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Run Web MVC",
+            "program": "${workspaceFolder}/NZwalk.Web/bin/Debug/net8.0/NZwalk.Web.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/NZwalk.Web",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/NZwalk.Web/Views"
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch Both Projects",
+            "configurations": ["Launch Web API", "Launch Web MVC"]
+        }
+    ]
+}

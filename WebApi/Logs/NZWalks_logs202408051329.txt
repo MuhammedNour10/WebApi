@@ -1,0 +1,9 @@
+2024-08-05 13:29:11.374 +03:00 [INF] User profile is available. Using '/Users/muhammed/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-05 13:29:11.425 +03:00 [INF] Now listening on: http://localhost:5112
+2024-08-05 13:29:11.426 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 13:29:11.426 +03:00 [INF] Hosting environment: Development
+2024-08-05 13:29:11.426 +03:00 [INF] Content root path: /Users/muhammed/Desktop/c# myProject/WebApi/WebApi
+2024-08-05 13:29:37.368 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/ - null null
+2024-08-05 13:29:37.390 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-05 13:29:37.406 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/ - 404 0 null 39.2008ms
+2024-08-05 13:29:37.412 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5112/, Response status code: 404

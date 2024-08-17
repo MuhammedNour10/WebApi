@@ -1,0 +1,15 @@
+2024-08-05 13:36:23.954 +03:00 [INF] User profile is available. Using '/Users/muhammed/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-05 13:36:24.154 +03:00 [INF] Now listening on: https://localhost:7249
+2024-08-05 13:36:24.155 +03:00 [INF] Now listening on: http://localhost:5112
+2024-08-05 13:36:24.156 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 13:36:24.157 +03:00 [INF] Hosting environment: Development
+2024-08-05 13:36:24.157 +03:00 [INF] Content root path: /Users/muhammed/Desktop/c# myProject/WebApi/WebApi
+2024-08-05 13:36:25.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2024-08-05 13:36:25.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 80.7815ms
+2024-08-05 13:36:25.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2024-08-05 13:36:25.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.6693ms
+2024-08-05 13:36:41.487 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5112/ - null null
+2024-08-05 13:36:41.507 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5112/ - 307 0 null 20.3293ms
+2024-08-05 13:36:41.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/ - null null
+2024-08-05 13:36:41.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/ - 404 0 null 36.6882ms
+2024-08-05 13:36:41.550 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7249/, Response status code: 404

@@ -1,0 +1,20 @@
+2024-08-05 14:57:13.988 +03:00 [INF] User profile is available. Using '/Users/muhammed/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-05 14:57:14.221 +03:00 [INF] Now listening on: https://localhost:7249
+2024-08-05 14:57:14.247 +03:00 [INF] Now listening on: http://localhost:5112
+2024-08-05 14:57:14.249 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-05 14:57:14.249 +03:00 [INF] Hosting environment: Development
+2024-08-05 14:57:14.249 +03:00 [INF] Content root path: /Users/muhammed/Desktop/c# myProject/WebApi/WebApi
+2024-08-05 14:57:15.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/index.html - null null
+2024-08-05 14:57:15.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/index.html - 200 null text/html;charset=utf-8 115.9251ms
+2024-08-05 14:57:15.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - null null
+2024-08-05 14:57:15.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.0205ms
+2024-08-05 14:57:27.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7249/api/Regions - null null
+2024-08-05 14:57:27.699 +03:00 [INF] Executing endpoint 'WebApi.Controllers.RegionsController.GetAllRegion (WebApi)'
+2024-08-05 14:57:27.715 +03:00 [INF] Route matched with {action = "GetAllRegion", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRegion() on controller WebApi.Controllers.RegionsController (WebApi).
+2024-08-05 14:57:28.338 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2024-08-05 14:57:28.369 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.Collections.Generic.List`1[[WebApi.Models.DTO.RegionsDTO, WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-05 14:57:28.380 +03:00 [INF] Executed action WebApi.Controllers.RegionsController.GetAllRegion (WebApi) in 663.5763ms
+2024-08-05 14:57:28.380 +03:00 [INF] Executed endpoint 'WebApi.Controllers.RegionsController.GetAllRegion (WebApi)'
+2024-08-05 14:57:28.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7249/api/Regions - 200 null application/json; charset=utf-8 772.6602ms

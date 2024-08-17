@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NZwalk.Web/1.0.0": {
+        "runtime": {
+          "NZwalk.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NZwalk.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
